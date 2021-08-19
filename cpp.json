@@ -1,0 +1,45 @@
+{"in": {
+	"prefix": "go",
+	"body": [
+	  "#include <iostream>",
+	  "using namespace std;",
+	  "int main(){",
+	  "",
+	  "",
+	  "return 0;    ",
+	  "} ",
+	  ""
+	],
+	"description": "in"
+  },
+  "input": {
+	"prefix": "in",
+	"body": [
+	  "cin>>x"
+	],
+	"description": "input"
+  },
+  "output": {
+	"prefix": "output",
+	"body": [
+	  "cout<<\" \""
+	],
+	"description": "output"
+  },"for_loop1": {
+	"prefix": "fori",
+	"body": [
+	  "for(int i=0; i<10; i++){",
+	  "",
+	  "}"
+	],
+	"description": "for_loop1"
+  },"for_loop2": {
+	"prefix": "forj",
+	"body": [
+	  "for(int j=0; j<10; j++){",
+	  "",
+	  "}"
+	],
+	"description": "for_loop2"
+  }
+}
